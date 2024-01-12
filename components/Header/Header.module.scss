@@ -1,0 +1,43 @@
+.header {
+    background-color: white;
+    padding: 60px 65px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        
+        h1 {
+            font-size: 50px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+
+    .legend__container {
+        div{
+            display: flex;
+            gap: 1em;
+            align-items: center;
+        }
+        h3 {
+            margin-left: -1em;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .expo,
+        .millenium {
+            width: 1.5em;
+            height: 0.30em;
+        }
+        .expo{
+            background-color: #04789e;
+        }
+        .millenium {
+            background-color: #2a455a;
+        }
+    }
+}
